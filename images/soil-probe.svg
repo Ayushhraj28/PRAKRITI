@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 40 400 230" width="400" height="230">
+  <rect y="0" width="400" height="300" fill="#e3f0d8"/>
+  <!-- soil -->
+  <rect y="170" width="400" height="130" fill="#6b4a2f"/>
+  <g fill="#5a3d26">
+    <circle cx="40" cy="210" r="6"/><circle cx="120" cy="250" r="5"/><circle cx="300" cy="230" r="7"/>
+    <circle cx="350" cy="275" r="5"/><circle cx="220" cy="285" r="4"/><circle cx="80" cy="280" r="4"/>
+  </g>
+  <!-- grass line -->
+  <path d="M0 172 q10 -18 20 0 q10 -18 20 0 q10 -18 20 0 q10 -18 20 0 q10 -18 20 0 q10 -18 20 0 q10 -18 20 0 q10 -18 20 0 q10 -18 20 0 q10 -18 20 0 q10 -18 20 0 q10 -18 20 0 q10 -18 20 0 q10 -18 20 0 q10 -18 20 0 q10 -18 20 0 q10 -18 20 0 q10 -18 20 0 q10 -18 20 0 q10 -18 20 0" fill="#3e7b27"/>
+  <!-- probe -->
+  <rect x="150" y="60" width="100" height="70" rx="10" fill="#3e7b27"/>
+  <rect x="162" y="72" width="76" height="34" rx="4" fill="#f5f9f1"/>
+  <text x="200" y="95" font-family="Arial" font-size="15" font-weight="bold" fill="#0f1a0e" text-anchor="middle">pH 6.8</text>
+  <circle cx="232" cy="118" r="5" fill="#c98a1b"/>
+  <rect x="175" y="130" width="10" height="130" fill="#9aa5a0"/>
+  <rect x="195" y="130" width="10" height="140" fill="#9aa5a0"/>
+  <rect x="215" y="130" width="10" height="130" fill="#9aa5a0"/>
+  <!-- signal -->
+  <g fill="none" stroke="#c98a1b" stroke-width="4" stroke-linecap="round">
+    <path d="M270 70 q15 15 0 30"/><path d="M285 58 q28 27 0 54"/>
+  </g>
+  <!-- labels -->
+  <g font-family="Arial" font-size="13" fill="#0f1a0e">
+    <text x="20" y="70">Moisture 32%</text>
+    <text x="20" y="90">Temp 24°C</text>
+    <text x="310" y="70">N P K</text>
+  </g>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 600" width="1600" height="600">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfe8f5"/>
+      <stop offset="1" stop-color="#f5f9f1"/>
+    </linearGradient>
+    <linearGradient id="field1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7fb85a"/>
+      <stop offset="1" stop-color="#3e7b27"/>
+    </linearGradient>
+    <linearGradient id="field2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a7d58a"/>
+      <stop offset="1" stop-color="#6aa84f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="600" fill="url(#sky)"/>
+  <circle cx="1320" cy="140" r="70" fill="#f2c14e"/>
+  <circle cx="1320" cy="140" r="95" fill="#f2c14e" opacity="0.25"/>
+  <!-- distant trees -->
+  <g fill="#5b8f3f" opacity="0.8">
+    <ellipse cx="120" cy="300" rx="70" ry="45"/><ellipse cx="230" cy="295" rx="55" ry="40"/>
+    <ellipse cx="640" cy="290" rx="80" ry="45"/><ellipse cx="760" cy="300" rx="50" ry="35"/>
+    <ellipse cx="1100" cy="295" rx="70" ry="42"/><ellipse cx="1480" cy="300" rx="80" ry="45"/>
+  </g>
+  <!-- back field -->
+  <path d="M0 320 C 300 280, 600 340, 900 300 S 1400 290, 1600 320 L1600 600 L0 600 Z" fill="url(#field2)"/>
+  <!-- front field with crop rows -->
+  <path d="M0 400 C 400 360, 900 420, 1600 380 L1600 600 L0 600 Z" fill="url(#field1)"/>
+  <g stroke="#2f5e1d" stroke-width="3" opacity="0.45" fill="none">
+    <path d="M800 390 L 80 600"/><path d="M800 390 L 330 600"/><path d="M800 390 L 580 600"/>
+    <path d="M800 390 L 800 600"/><path d="M800 390 L 1020 600"/><path d="M800 390 L 1270 600"/>
+    <path d="M800 390 L 1520 600"/>
+  </g>
+  <!-- small plants -->
+  <g fill="#2f5e1d">
+    <path d="M300 560 q-12 -30 0 -50 q12 20 0 50z"/><path d="M300 560 q-30 -18 -40 -40 q30 6 40 40z"/><path d="M300 560 q30 -18 40 -40 q-30 6 -40 40z"/>
+    <path d="M1280 560 q-12 -30 0 -50 q12 20 0 50z"/><path d="M1280 560 q-30 -18 -40 -40 q30 6 40 40z"/><path d="M1280 560 q30 -18 40 -40 q-30 6 -40 40z"/>
+  </g>
+</svg>
